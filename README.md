@@ -1,4 +1,10 @@
-# Steps to reproduce
+# Problem solved
+
+See [this comment](https://github.com/uuidjs/uuid/issues/488#issuecomment-669024239)
+
+The problem was using node v13x. Works ok with node v12.x and v14.x
+
+### Steps to reproduce
 
 Run `npm install`  
 Run `npm start`
